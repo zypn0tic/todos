@@ -17,7 +17,7 @@ app.post("/api/v1/todos", async (req, res) => {
     description: req.body.description,
   });
 
-  try { to-do by ID
+  try {
     const newTodo = await todo.save();
 
     res.status(201).json(newTodo);
